@@ -1,0 +1,15 @@
+1. place token
+
+2.  I will allow the user to select a column and row they want to place their marker in
+by asking for an integer between 1 and 3. 
+
+3. Is winner method, doesn't need to take arguments
+
+4. computerTurn() would be one function. It would accept the token its playing as an argument, and its
+function is to randomly pick a tile on the board and send it into place token method.
+playerTurn() would be another. It would accept the token its playing as an argument, and its function
+is to accept player input and validate it, then run the place token method with the user inputed numbers.
+
+5. I plan to break each type of win condition into their own separate list (columns, rows, diagonals).
+Then I will check each nested list in the win condition type, and see if when I make a set out of the row
+that it equals 1, since sets don't repeat elements. And if so then there is a winner.
